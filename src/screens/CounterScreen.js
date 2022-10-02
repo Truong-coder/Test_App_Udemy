@@ -1,15 +1,36 @@
-import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import React, {useState} from 'react';
+import {Text, View, StyleSheet, Button } from 'react-native';
 
 
-const CounterScreen = ()->{
+const CounterScreen = () => {
+    //hooks
+    // use 'state' to initialize a new piece of state or 
+    // or new piece of data that been tracked 
+    const [counter, setCounter] = useState(0);
 
-    result(
-        <Text> This is CounterScreen demo </Text>
+    return(
+        <View> 
+            <Button 
+                title = "Increase"
+                onPress={()=>{
+                    setCounter(counter + 1);
+
+                }}
+            />
+            <Button 
+                title = "Decrease"
+                onPress={()=>{
+                    setCounter(counter - 1);
+
+
+                }}
+            />
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
+
 
 });
 
