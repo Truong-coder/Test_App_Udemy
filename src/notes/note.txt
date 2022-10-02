@@ -1,0 +1,16 @@
+1. Text -> A 'primitive' React element. Used to show some
+basic content on the screen.
+2. JSX -> It's a 'dialect' of JS that tells React 
+what conten we want to show.
+3. appNavigator in the 'App.js' file? -> It's a tool from a library called
+'React Navigation' that is used to show diffrent screeens to the user.
+4. How's that 'styles' thing work?
+-> The 'StyleSheet.create()' function validates a set of styling rules that
+we pass into it. We can use it or pass stlying directory into an element.
+
+
+* Text -> Show some text to the user. Any text placed oursite of a 'Text'
+will result in an error.
+* View -> General purpose element used for grouping other elements or styling
+* Image -> Show an Image
+*Button -> Show a button the user can press. Gives us some feedback whenever the user presses it.
