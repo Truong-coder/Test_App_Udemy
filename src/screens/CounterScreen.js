@@ -4,8 +4,8 @@ import {Text, View, StyleSheet, Button } from 'react-native';
 
 const CounterScreen = () => {
     //hooks
-    // use 'state' to initialize a new piece of state or 
-    // or new piece of data that been tracked 
+    // use 'state' to initialize a new piece of state 
+    // or new piece of data that being tracked 
     const [counter, setCounter] = useState(0);
 
     return(
@@ -21,10 +21,9 @@ const CounterScreen = () => {
                 title = "Decrease"
                 onPress={()=>{
                     setCounter(counter - 1);
-
-
                 }}
             />
+            <Text>Current Count: {counter}</Text>
         </View>
     );
 };

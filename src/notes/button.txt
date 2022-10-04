@@ -3,3 +3,4 @@ Button with React native
 * Button -> Very simple component for showing a button 
 and dectecting a press
 * TouchableOpacity -> Highly customizable component that can dectect a press on just about any kind of element
+* TouchableWithoutFeedback

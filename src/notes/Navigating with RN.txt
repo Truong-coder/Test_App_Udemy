@@ -1,5 +1,5 @@
 - The StackNavigator is what's going to alow us to navigate or essentially change the content
 that is visible on the screen to users.
 - Navigate is a function that can be used to change the content that is visible
-on the screen of our users.
+on the screen of our device.
 

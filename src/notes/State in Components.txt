@@ -5,3 +5,21 @@
 *What type of data is it? -> array of objects
 *What is the data's starting (default) value? -> []
 
+*) Counter_App
+- App starts up
+- We navigate to the CounterScreen. 'counter' piece of state is initialized -> counter:0
+- User taps on the 'increase' button, and the 'onPress' callback runs
+- 'onPress' calls 'setCounter', and updates its value
+- After a very brief pause, React automatically 'rerenders' or re-runs the CounterScreen
+- CounterScreen was already ran once! The state variable 'counter' is not initialized again
+- 'counter' now has an updated value of '1' -> counter: 1
+- We return some JSX that references the updated 'counter' variable
+
+*> Notes on state
+
+- We are using function-based state in a functional component. React also has class-based components that have access to state
+- We never directly modify a state variable. React doesn't detect this change! Only use the 'settle' function
+- We can name the state variable anything we wish
+- We can track any kind of data that changes over time - a number, string, array of objects, etc
+- When a component is rerendered, all of its children get rerendered too
+- A state variable can be passed to a child component! At that point, the state variable is now being used as props.
