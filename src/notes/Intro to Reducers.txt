@@ -1,0 +1,17 @@
+* QUICK THOUGHTS
+    - App works right now - we could leave it as-is! But we could make it slightly better...
+    - We have three separate pieces of state
+    - For this app, these three pieces of state are extremely related
+    - There is a precise set of well-known ways in which we update these values
+    -> This makes our state a great candidate for being managed by a 'reducer'
+
+    *) REDUCER or Function That Manages Changes To An Object
+    - Real fancy name
+    - Function that gets called with two objects
+    - Argument #1 - object that has all of our state in it -> {red: 0, green: 0, blue: 0}
+    - Argument #2 - object that describes the update we want to make -> {colorToChange: 'red', amount: 15}
+    - We look at Argument #2 and use it to decide how to change Argument #1
+    - Two technicalities 
+        (1) We never change Argument #1 directly.
+        (2) We must always return a value to be used as Argument #1.
+

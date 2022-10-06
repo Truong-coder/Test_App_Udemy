@@ -1,19 +1,22 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button } from 'react-native';
 
-    const ColorCounter = ({color}) => {
+// Hook up the use of an color, onIncrease, onDecrease inside this function
+    const ColorCounter = ({ color, onIncrease, onDecrease }) => {
 
         return(
             <View>
                 {/* using back to characters (not a single quote) in string in JSX */}
                 <Text>{color}</Text>
                 <Button
+            // passing down the ability to call ,setRed with (red+1)
                     title = {`Increase ${color}`}
-                    // onPress = {()=>{}}
+                    onPress = {()=> onIncrease()}
                 />
                 <Button
+            // passing down the ability to call ,setRed with (red-1)
                     title = {`Decrease ${color}`}
-                    // onPress = {()=>{}}
+                    onPress = {()=>onDecrease()}
                 />
                 
 
