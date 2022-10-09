@@ -15,11 +15,36 @@
 - 'counter' now has an updated value of '1' -> counter: 1
 - We return some JSX that references the updated 'counter' variable
 
-*> Notes on state
+*) Hook Rules
+There are 3 rules for hooks:
 
+Hooks can only be called inside React function components.
+Hooks can only be called at the top level of a component.
+Hooks cannot be conditional
+
+*> Notes on state
 - We are using function-based state in a functional component. React also has class-based components that have access to state
 - We never directly modify a state variable. React doesn't detect this change! Only use the 'settle' function
 - We can name the state variable anything we wish
 - We can track any kind of data that changes over time - a number, string, array of objects, etc
 - When a component is rerendered, all of its children get rerendered too
 - A state variable can be passed to a child component! At that point, the state variable is now being used as props.
+
+- The React useState Hook allows us to track state in a function component.
+- State generally refers to data or properties that need to be tracking in an application.
+- To use the useState Hook, we first need to import it into our component.
+    import {useState} from 'react'
+- Notice that we are destructuring useState from react as it is a named export
+
+*) Initialize useState
+- We initialize our state by calling useState in our function component.
+- useState accepts an initial state and returns two values:
+    The current state.
+    A function that updates the state.
+
+- Notice that again, we are destructuring the returned values from useState.
+- The first value, color, is our current state.
+- The second value, setColor, is the function that is used to update our state.
+- These names are variables that can be named anything you would like.
+- Lastly, we set the initial state to an empty string: useState("")
+

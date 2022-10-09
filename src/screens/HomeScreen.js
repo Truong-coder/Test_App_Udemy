@@ -6,18 +6,22 @@ const HomeScreen = ({ navigation }) => {
   
 
   return (
-    //pass in a title prop and onPress prop
+    // pass in a title prop and onPress prop
     <View style = {styles.text}>
-      <Text style={styles.text}>Hi there!</Text> 
+      <Text style={styles.text}>Press to change screen!</Text>
+      <View>
       <Button 
         title="Go to component Demo"
-        onPress={ () => navigation.navigate('Components') }// notif when pressed
-     
+        onPress={ () => navigation.navigate('Components') }// notify when pressed
       /> 
+      </View>
+      <View>
       <Button  
-        title="Go to List Demo"
+        title="Go to List Demo" 
         onPress={()=> navigation.navigate('List')}
       />
+      </View>
+      
       <Button 
         title="Go to Image Demo"
         onPress={()=> navigation.navigate('Image')}
@@ -34,6 +38,14 @@ const HomeScreen = ({ navigation }) => {
       <Button 
         title="Go to Square Screen"
         onPress = {()=> navigation.navigate('Square')}
+      />
+      <Button 
+        title="Go to Text Screen"
+        onPress = {()=> navigation.navigate('Text')}
+      />
+      <Button 
+        title="Go to Box Screen"
+        onPress = {() => navigation.navigate('Box')}
       />
       {/* <TouchableOpacity onPress={() => props.navigation.navigate('List')}>
         <Text> Go to List Demo</Text>

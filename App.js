@@ -7,7 +7,8 @@ import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
-
+import TextScreen from './src/screens/TextScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 /* The Stack Navigator is a little object that decides what content 
  we're going to show on the screen at any given point of time
@@ -20,11 +21,13 @@ const navigator = createStackNavigator(
     Image: ImageScreen,
     Counter: CounterScreen,
     Color: ColorScreen,
-    Square: SquareScreen
+    Square: SquareScreen,
+    Text: TextScreen,
+    Box: BoxScreen
   },
   {
     // show default screen when start up
-    initialRouteName: 'Home', // display the screen when start up
+    initialRouteName: 'Box', // display the screen when start up
     defaultNavigationOptions: {
       title: 'App',
     },

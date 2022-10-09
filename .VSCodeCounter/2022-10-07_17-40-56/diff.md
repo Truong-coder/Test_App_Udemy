@@ -1,0 +1,23 @@
+# Diff Summary
+
+Date : 2022-10-07 17:40:56
+
+Directory h:\\TestApp
+
+Total : 1 files,  8 codes, 22 comments, 7 blanks, all 37 lines
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| JavaScript | 1 | 8 | 22 | 7 | 37 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 1 | 8 | 22 | 7 | 37 |
+| src | 1 | 8 | 22 | 7 | 37 |
+| src\\screens | 1 | 8 | 22 | 7 | 37 |
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)

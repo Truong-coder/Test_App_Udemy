@@ -1,0 +1,46 @@
+Date : 2022-10-07 17:40:56
+Directory : h:\TestApp
+Total : 17 files,  22590 codes, 213 comments, 85 blanks, all 22888 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |     22,257 |         16 |          3 |     22,276 |
+| JavaScript |         13 |        333 |        197 |         82 |        612 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                    |         17 |     22,590 |        213 |         85 |     22,888 |
+| .expo-shared                                         |          1 |          4 |          0 |          1 |          5 |
+| src                                                  |         11 |        300 |        193 |         77 |        570 |
+| src\components                                       |          2 |         34 |          8 |         13 |         55 |
+| src\screens                                          |          8 |        250 |        185 |         62 |        497 |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                             | language   | code       | comment    | blank      | total      |
++------------------------------------------------------+------------+------------+------------+------------+------------+
+| h:\TestApp\.expo-shared\assets.json                  | JSON       |          4 |          0 |          1 |          5 |
+| h:\TestApp\App.js                                    | JavaScript |         27 |          4 |          3 |         34 |
+| h:\TestApp\app.json                                  | JSON       |         18 |         16 |          0 |         34 |
+| h:\TestApp\babel.config.js                           | JavaScript |          6 |          0 |          2 |          8 |
+| h:\TestApp\package-lock.json                         | JSON       |     22,205 |          0 |          1 |     22,206 |
+| h:\TestApp\package.json                              | JSON       |         30 |          0 |          1 |         31 |
+| h:\TestApp\src\Colors.js                             | JavaScript |         16 |          0 |          2 |         18 |
+| h:\TestApp\src\components\ColorCounter.js            | JavaScript |         20 |          3 |          7 |         30 |
+| h:\TestApp\src\components\ImageDetail.js             | JavaScript |         14 |          5 |          6 |         25 |
+| h:\TestApp\src\screens\ColorScreen.js                | JavaScript |         37 |          5 |          7 |         49 |
+| h:\TestApp\src\screens\ComponentsScreen.js           | JavaScript |         32 |          1 |          5 |         38 |
+| h:\TestApp\src\screens\CounterScreen.js              | JavaScript |         25 |          3 |          8 |         36 |
+| h:\TestApp\src\screens\HomeScreen.js                 | JavaScript |         42 |          4 |          9 |         55 |
+| h:\TestApp\src\screens\ImageScreen.js                | JavaScript |         27 |          2 |          9 |         38 |
+| h:\TestApp\src\screens\ListScreen.js                 | JavaScript |         31 |         13 |          7 |         51 |
+| h:\TestApp\src\screens\SquareScreen.js               | JavaScript |         56 |         52 |         15 |        123 |
+| h:\TestApp\src\screens\SquareScreenWithoutReducer.js | JavaScript |          0 |        105 |          2 |        107 |
+| Total                                                |            |     22,590 |        213 |         85 |     22,888 |
++------------------------------------------------------+------------+------------+------------+------------+------------+
