@@ -27,7 +27,7 @@ const navigator = createStackNavigator(
   },
   {
     // show default screen when start up
-    initialRouteName: 'Box', // display the screen when start up
+    initialRouteName: 'Home', // display the screen when start up
     defaultNavigationOptions: {
       title: 'App',
     },

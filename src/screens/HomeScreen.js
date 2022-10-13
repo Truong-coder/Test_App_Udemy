@@ -10,23 +10,21 @@ const HomeScreen = ({ navigation }) => {
     <View style = {styles.text}>
       <Text style={styles.text}>Press to change screen!</Text>
       <View>
-      <Button 
+      <Button style ={styles.button}
         title="Go to component Demo"
         onPress={ () => navigation.navigate('Components') }// notify when pressed
       /> 
       </View>
-      <View>
-      <Button  
+      
+      <Button style ={styles.button} 
         title="Go to List Demo" 
         onPress={()=> navigation.navigate('List')}
       />
-      </View>
-      
-      <Button 
+      <Button style ={styles.button}
         title="Go to Image Demo"
         onPress={()=> navigation.navigate('Image')}
       />
-      <Button 
+      <Button style ={styles.button}
         title="Go to CounterScreen"
         onPress={()=> navigation.navigate('Counter')}
       />
@@ -59,7 +57,11 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
-    marginVertical: 15
+    marginVertical: 15,
+    
+  },
+  button: {
+    jutifyConten: 'space-between'
   }
 });
 
